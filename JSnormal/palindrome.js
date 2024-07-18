@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 })
 
 function cin(input) {
-    return new Promise(resolve => rl.question(input, resolve));
+    return new Promise(value => rl.question(input, value));
 }
 function checkPalindrome(str) {
     for (let i = 0; i < str.length; i++) {
