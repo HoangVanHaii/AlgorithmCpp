@@ -12,7 +12,6 @@
       "program": "d:/html/classInJS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
-      "console": "internalConsole",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
