@@ -22,7 +22,8 @@ async function cin(input) {
     return new Promise(resolve => rl.question(input, resolve));
 }
 async function main() {
-    let a = await cin('nhap a');
+    let a = new javascript();
+    let b = await cin('nhap a');
     console.log(a);
     rl.close();
 }

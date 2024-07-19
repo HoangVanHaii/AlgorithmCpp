@@ -4,7 +4,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-async function cin(input) {
+function cin(input) {
     return new Promise(resolve => rl.question(input, resolve));
 }
 function isPri(a) {

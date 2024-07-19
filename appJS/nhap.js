@@ -31,7 +31,7 @@ function SortArr(a) {
         for (let j = i + 1; j < arr.length; j++) {
             if (arr[i] < arr[j]) {
                 let tmp = arr[i];
-                arr[i] = arr[j];
+                arr[i] = a8rr[j];
                 arr[j] = tmp;
             }
         }
@@ -69,7 +69,7 @@ async function main() {
         arr.push(x);
     }
     let arr2 = arr;
-    let c = arr;
+    let gitc = arr;
     console.log('mang ban dau', arr);
     console.log('mang da sort', SortArr(arr2));
     let a = OneTwo(arr);
