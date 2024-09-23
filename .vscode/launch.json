@@ -2,26 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "(Windows) Launch",
-      "type": "cppvsdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "console": "externalTerminal",
-      "preLaunchTask": "C/C++: g++.exe build active file"
-    },
-    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/c2+/project/build/Debug",
-      "program": "d:/c2+/project/build/Debug/build/Debug/outDebug",
+      "cwd": "d:/c2+/List",
+      "program": "d:/c2+/List/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
