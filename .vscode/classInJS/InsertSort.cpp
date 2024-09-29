@@ -12,6 +12,16 @@ void insertSort(DataType a[], int n){
         a[j+1] = k;
     }
 }
+void insertsort(int a[], int n){
+    for(int i = 1 ; i < n; i++){
+        int x = a[i];
+        int j;
+        for (j = i; j > 0 && a[j - 1] < x; j--){
+            a[j] = a[j - 1];
+        }
+        a[j] = x;
+    }
+}
 // 2 1 4 7 3
 
 int main(){
@@ -23,7 +33,7 @@ int main(){
     for (int i = 0; i < n; i++){
         cin >> arr[i];
     }
-    insertSort(arr, n);
+    insertsort(arr, n);
     cout << "mang sau khi insertSort:\n";
 
     for (int i = 0; i < n; i++) {
